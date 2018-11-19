@@ -37,6 +37,8 @@ body{
 }
 #search_box input:focus{
     outline: none;
+    box-shadow:0px 0px 30px rgba(255,255,255,0.4);
+    outline: none;
 }
 #search_box input:hover{
     /*box-shadow:0px 10px 30px rgba(67,107,164,0.8);*/
