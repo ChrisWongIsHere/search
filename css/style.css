@@ -9,9 +9,33 @@
 }
 body{
 	background: #ebeff2;
+	animation: bgChange 10s infinite alternate;
+}
+@keyframes bgChange{
+	0%{
+		background: #ebeff2;
+	}
+	25%{
+		background: #cfd9df;
+	}
+	50%{
+		background: #e2ebf0;
+	}
+	60%{
+		background: #f5f7fa;
+	}
+	80%{
+		background: #c3cfe2;
+	}
+	100%{
+		background: #ebeff2;
+	}
 }
 .bg-primary{
 	background-color: #436BA4!important;
+}
+.navbar-nav li {
+	padding-right: 20px;
 }
 #search_box{
 	height: 300px;
