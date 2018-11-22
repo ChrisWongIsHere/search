@@ -92,7 +92,7 @@ font-size: 20px;
 	/*background: rgba(255,255,255,0.8);*/
 }
 .list-group-item{
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.8);
 	border: none;
 }
 .list-group-item.active:not(span){
