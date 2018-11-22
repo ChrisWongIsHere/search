@@ -42,9 +42,9 @@
 			</div>
 		</nav>
 		<div class="container-fluid" id="search_box">
-			<h2>欢迎使用锦城快搜</h2>
-			<input type="text" name="search" placeholder="你想搜点什么？" class="col-xl-6 col-lg-6" />
-			<img src="img/search.svg" />
+			<h2 id="welcome">欢迎使用锦城快搜</h2>
+			<input type="text" name="search" placeholder="你想搜点什么？" class="col-xl-6 col-lg-6" onkeyup="searchEnter()"/>
+			<img src="img/search.svg" onclick="searchEnter()"/>
 		</div>
 		<div class="container-fluid col-xl-6 col-lg-6 col-md-6 col-sm-12" id="hot_search_content">
 			<div class="container-fluid" id="hot_search_title">

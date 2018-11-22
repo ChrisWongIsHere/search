@@ -9,3 +9,9 @@ function timedCount() {
 	x++;
 	t = setTimeout("timedCount()", 3000);
 }
+function searchEnter(){
+	if(event.keyCode==13){
+//		alert("我一问三不知");
+		document.getElementById('welcome').innerHTML="正在搜索中...";
+	}
+}
