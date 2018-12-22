@@ -22,7 +22,7 @@ function snow() {
 	//    1、定义一片雪花模板
 	var flake = document.createElement('div');
 	// 雪花字符 ❄❉❅❆✻✼❇❈❊✥✺
-	flake.innerHTML = '❆';
+	flake.innerHTML = '.';
 	flake.style.cssText = 'position:absolute;color:#fff;';
 
 	//获取页面的高度 相当于雪花下落结束时Y轴的位置
